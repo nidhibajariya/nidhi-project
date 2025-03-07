@@ -1,0 +1,31 @@
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: #f5f5f5;
+}
+
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Material Form Styles */
+.mat-mdc-form-field {
+  width: 100%;
+}
+
+.mdc-text-field--outlined {
+  --mdc-outlined-text-field-container-height: 56px;
+  --mdc-outlined-text-field-outline-color: rgba(0, 0, 0, 0.12);
+}
+
+.mat-mdc-form-field-error {
+  font-size: 12px;
+}
+
+.mat-mdc-checkbox {
+  margin: 8px 0;
+}
